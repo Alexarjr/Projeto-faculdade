@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    box-sizing: border-box;
+    padding: 0 32px 0 32px;
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: auto;
+    color: #FEFEFE;
+}
+
+.principal {
+    background-image: url(./Assets/LogoV5.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 48% 52%;
+}
+
+.Form {
+    display: inline-block;
+}
+
+.titulo {
+    margin-bottom: 22px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 1em;
+    outline: none;
+}
+
+.Button {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width:1280px) {
+    body {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+        color: #FEFEFE;
+    }
+
+    .jiv {
+        align-items: center;
+    }
+
+    .principal {
+        background-image: url(./Assets/LogoV5.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+    }
+}
